@@ -27,6 +27,19 @@ bezirke <- st_read("shp-bezirke/bezirke_berlin.shp")
 
 Column {data-width=350}
 -----------------------------------------------------------------------
+### Number of non-bicylce accidents
+```{r}
+valueBox(nrow(unfaelle), icon = "fa-calculator")
+```
+
+### Number of bicycle accidents
+```{r}
+valueBox(123456, icon = "fa-bicycle")
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ### Accident locations
 
